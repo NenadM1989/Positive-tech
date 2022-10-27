@@ -1,0 +1,107 @@
+.container {
+  padding: 0% 3% 0% 3%;
+}
+
+.flex {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.content {
+  width: 100%;
+}
+
+.layout {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  position: relative;
+}
+
+.header {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.header h1 {
+  color: #00112a;
+  font-size: 6.5vw;
+  font-weight: 600;
+  position: relative;
+  animation-name: nenad;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+
+@keyframes nenad {
+  0% {
+    opacity: 0;
+    top: -120px;
+  }
+
+  50% {
+    opacity: 0;
+    top: -120px;
+  }
+
+  70% {
+    opacity: 0.6;
+    top: -60px;
+  }
+
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+.articles {
+  width: 100%;
+  margin: 50px;
+}
+
+.row {
+  align-items: stretch;
+}
+
+.setup {
+  display: flex;
+  margin-right: 5px;
+  padding: 30px;
+  overflow: hidden;
+}
+
+.image {
+  background-image: url(../public/Rectangle-199.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 30px;
+}
+
+.image:last-child {
+  margin-bottom: 0;
+}
+
+.grow h2 {
+  color: #00112a;
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+
+.grow p {
+  color: #00112a;
+  font-size: 1.5vw;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.5em;
+}
+
+.article1 {
+  cursor: pointer;
+}

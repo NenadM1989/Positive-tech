@@ -1,0 +1,128 @@
+.container {
+  padding: 5% 3% 5% 3%;
+}
+
+.flex {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.layout {
+  width: 100%;
+  display: flex;
+  min-height: 1px;
+}
+
+.content {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.header {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.header h1 {
+  color: #00112a;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.articles {
+  color: #00112a;
+  font-size: 18px;
+  font-weight: 400;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.padding {
+  padding: 2% 5% 0% 5%;
+}
+
+.padding p {
+  margin-top: 0;
+  margin-bottom: 0.9rem;
+}
+
+.padding h2 {
+  margin-top: 0.5rem;
+  color: #00112a;
+  margin-bottom: 1rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.padding a {
+  color: #c36;
+  text-decoration: none;
+}
+
+.padding a:visited {
+  color: #c36;
+}
+
+.published {
+  width: 100%;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.march {
+  font-weight: 400;
+  color: #6a96d8;
+  font-size: 0.9rem;
+}
+
+.icon {
+  width: 100%;
+}
+
+.box {
+  text-align: right;
+  display: flex;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  flex-direction: row-reverse;
+}
+
+.logo {
+  align-self: flex-start;
+  margin-left: 25px;
+  margin-right: 0;
+  flex-shrink: 0;
+}
+
+.image {
+  width: 100px;
+  border-radius: 500px;
+  object-fit: cover;
+  box-shadow: 20px 20px 50px grey;
+  height: auto;
+  max-width: 100%;
+  border: none;
+}
+
+.author {
+  flex-grow: 1;
+  font-size: 17px;
+}
+
+.author h4 {
+  color: #6a96d8;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.lista {
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

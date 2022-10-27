@@ -1,7 +1,7 @@
 import Link from "next/link";
-import styles from "../styles/Header.module.css";
+import styles from "../styles/SecondHeader.module.css";
 import Image from "next/image";
-import picture from "../public/233C.png";
+import picture from "../public/white-positive.png";
 import spinner1 from "../public/Mask-Group-1.png";
 import spinner2 from "../public/Mask-Group.png";
 import spinner3 from "../public/Mask-Group-3.png";
@@ -20,9 +20,7 @@ export default function Header() {
           />
         </Link>
       </div>
-      <nav className={styles.nav}>
-        <input type="checkbox" className={styles.toggle} />
-        <div className={styles.hamburger}></div>
+      <nav>
         <ul className={styles.list}>
           <li>
             <Link href="/team">

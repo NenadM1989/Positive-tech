@@ -1,0 +1,147 @@
+.contact {
+  padding: 0% 3% 5% 3%;
+}
+.layout {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  min-height: 1px;
+}
+.content {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.nenad {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.nenad h2 {
+  color: #00112a;
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.second {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.map {
+  width: 60%;
+  display: flex;
+  min-height: 1px;
+}
+
+.okvir {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+}
+
+.mapa {
+  width: 100%;
+}
+.full {
+  overflow: hidden;
+}
+
+.final {
+  line-height: 0;
+}
+
+.final iframe {
+  height: 300px;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  line-height: 1;
+  border: none;
+  filter: blur(0) contrast(50%) saturate(50%) brightness(70%);
+}
+
+.touch {
+  width: 40%;
+  display: flex;
+  min-height: 1px;
+}
+
+.column {
+  padding: 0% 10% 0% 10%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.get {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.get h2 {
+  color: #0091ff;
+  font-size: 4vw;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+
+.general {
+  color: #00112a;
+  font-size: 20px;
+  font-weight: 400;
+  width: 50%;
+  max-width: 50%;
+}
+
+.email {
+  padding: 5% 0% 5% 0%;
+}
+
+.fill {
+  padding: 3% 3% 3% 3%;
+}
+
+.form {
+  padding: 1%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.network {
+  width: 100%;
+  display: flex;
+  min-height: 1px;
+}
+
+.padding {
+  padding: 10px;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 10px;
+}

@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  opacity: 0;
+}
+
+.name {
+  color: #ffd54f;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.position {
+  margin-top: 10px;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 18px;
+  margin-left: 100px;
+}
+
+.picture:hover ~ .text {
+  opacity: 1;
+}
