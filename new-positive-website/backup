@@ -1,0 +1,45 @@
+.span1 {
+  position: relative;
+  z-index: 1;
+}
+
+.span1:before {
+  content: "";
+  background-image: url(../public/Rectangle-101.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: inline-block;
+  height: 100%;
+  z-index: -1;
+  left: -1%;
+  animation: 1s businessAnimation ease;
+  animation-duration: 0.5s;
+  animation-delay: 2.2s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+}
+
+@keyframes businessAnimation {
+  0% {
+    width: 0;
+    visibility: visible;
+  }
+
+  100% {
+    width: 100%;
+    visibility: visible;
+  }
+}
+
+/* <section className="initial">
+        <Header />
+        <h1 className="all-things" id="main">
+          all things digital <br /> for your{" "}
+          <span className="span1" id="business">
+            business
+          </span>{" "}
+          <br />
+          in one place
+        </h1>
+      </section>*/

@@ -2,26 +2,12 @@ import styles from "../styles/Home.module.css";
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Initial from "./initial";
 
 export default function HomePage() {
   return (
     <Layout>
-      <section className="initial">
-        <Header />{" "}
-        <h1 className="all-things" id="main-header">
-          all things digital <br /> for your{" "}
-          <span className="span1" id="business">
-            business
-          </span>{" "}
-          <br />
-          in one place
-        </h1>
-        <div className="scroll">
-          <h4 className="text">
-            scroll down to <br /> <span className="span2">see more</span>
-          </h4>
-        </div>
-      </section>
+      <Initial />
       <section className="top-section">
         <div className="container">
           <div className="column">
