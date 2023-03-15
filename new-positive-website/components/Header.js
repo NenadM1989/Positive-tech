@@ -21,8 +21,6 @@ export default function Header() {
         </Link>
       </div>
       <nav className={styles.nav}>
-        <input type="checkbox" className={styles.toggle} />
-        <div className={styles.hamburger}></div>
         <ul className={styles.list}>
           <li>
             <Link href="/team">
